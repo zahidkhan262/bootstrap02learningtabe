@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DashBoard || and Table</title>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <script src="js/bootstrap.bundle.js"></script>
+
+    <script src="https://kit.fontawesome.com/8b6c44059c.js" crossorigin="anonymous"></script>
+
+
+    <style>
+        textarea {
+            resize: none;
+        }
+
+        .content p {
+            font-size: 11px;
+        }
+
+        .icon {
+            background: rgb(218, 218, 218);
+            border-radius: 100%;
+            width: 32px;
+            height: 32px;
+            position: relative;
+            margin-right: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .fas {
+            font-size: 19px;
+            color: rgb(230, 73, 104);
+        }
+
+        .fa-coffee,
+        .fa-share {
+            color: rgb(40, 211, 154);
+        }
+
+        .fa-laptop,
+        .fa-star {
+            color: rgb(40, 162, 211);
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="my-4">Basic table in bootstrap</h1>
+        <table class="table table-light table-striped table-responsive-md table-responsive-sm table-bordered">
+            <th>Name</th>
+            <th>Age</th>
+            <th>Graduation</th>
+            <th>DOB</th>
+            <th>Mobile No.</th>
+            <div class="entry bg-dark">
+                <tr>
+                    <td>Zahid</td>
+                    <td>22</td>
+                    <td>B.tech</td>
+                    <td>15/06/1999</td>
+                    <td>8874262123</td>
+                </tr>
+                <tr>
+                    <td>Zahid</td>
+                    <td>22</td>
+                    <td>B.tech</td>
+                    <td>15/06/1999</td>
+                    <td>8874262123</td>
+                </tr>
+                <tr>
+                    <td>Zahid</td>
+                    <td>22</td>
+                    <td>B.tech</td>
+                    <td>15/06/1999</td>
+                    <td>8874262123</td>
+                </tr>
+                <tr>
+                    <td>Zahid</td>
+                    <td>22</td>
+                    <td>B.tech</td>
+                    <td>15/06/1999</td>
+                    <td>8874262123</td>
+                </tr>
+                <tr>
+                    <td>Zahid</td>
+                    <td>22</td>
+                    <td>B.tech</td>
+                    <td>15/06/1999</td>
+                    <td>8874262123</td>
+                </tr>
+            </div>
+        </table>
+    </div>
+
+
+    <!-- editable table in bootstrap -->
+    <div class="container">
+        <h2 class="my-5">Editable Table in Bootstrap</h2>
+        <table class="table table-light table-striped table-responsive-md table-responsive-sm table-bordered">
+            <th>Name</th>
+            <th>Age</th>
+            <th>Graduation</th>
+            <th>DOB</th>
+            <th>Mobile No.</th>
+
+            <tr>
+                <td><textarea class="border-0 bg-transparent" rows="1">Zahid</textarea></td>
+                <td><textarea class="border-0 bg-transparent" rows="1">22</textarea></td>
+                <td><textarea class="border-0 bg-transparent" rows="1">B.tech</textarea></td>
+                <td><textarea class="border-0 bg-transparent" rows="1">15/06/1999</textarea></td>
+                <td><textarea class="border-0 bg-transparent" rows="1">8874262123</textarea></td>
+            </tr>
+            <tr>
+                <td><textarea class="border-0 bg-transparent" rows="1">Zahid</textarea></td>
+                <td><textarea class="border-0 bg-transparent" rows="1">22</textarea></td>
+                <td><textarea class="border-0 bg-transparent" rows="1">B.tech</textarea></td>
+                <td><textarea class="border-0 bg-transparent" rows="1">15/06/1999</textarea></td>
+                <td><textarea class="border-0 bg-transparent" rows="1">8874262123</textarea></td>
+            </tr>
+            <tr>
+                <td><textarea class="border-0 bg-transparent" rows="1">Zahid</textarea></td>
+                <td><textarea class="border-0 bg-transparent" rows="1">22</textarea></td>
+                <td><textarea class="border-0 bg-transparent" rows="1">B.tech</textarea></td>
+                <td><textarea class="border-0 bg-transparent" rows="1">15/06/1999</textarea></td>
+                <td><textarea class="border-0 bg-transparent" rows="1">8874262123</textarea></td>
+            </tr>
+            <tr>
+                <td><textarea class="border-0 bg-transparent" rows="1">Zahid</textarea></td>
+                <td><textarea class="border-0 bg-transparent" rows="1">22</textarea></td>
+                <td><textarea class="border-0 bg-transparent" rows="1">B.tech</textarea></td>
+                <td><textarea class="border-0 bg-transparent" rows="1">15/06/1999</textarea></td>
+                <td><textarea class="border-0 bg-transparent" rows="1">8874262123</textarea></td>
+            </tr>
+            <tr>
+                <td><textarea class="border-0 bg-transparent" rows="1">Zahid</textarea></td>
+                <td><textarea class="border-0 bg-transparent" rows="1">22</textarea></td>
+                <td><textarea class="border-0 bg-transparent" rows="1">B.tech</textarea></td>
+                <td><textarea class="border-0 bg-transparent" rows="1">15/06/1999</textarea></td>
+                <td><textarea class="border-0 bg-transparent" rows="1">8874262123</textarea></td>
+            </tr>
+
+        </table>
+    </div>
+
+    <!--  Assignment Table------------------------------------------------------ -->
+    <div class="container">
+        <h1 class="my-4">Assignment table by bootstrap</h1>
+        <table class="table table-light table-striped table-responsive-md table-responsive-sm table-bordered">
+            <th>Company</th>
+            <th>Category</th>
+            <th>Views</th>
+            <th>Revenue</th>
+            <th>Sales</th>
+
+            <div class="container">
+                <tr>
+                    <td>
+                        <div class="d-flex">
+                            <div class="icon">
+                                <i class="fas fa-shopping-bag"> </i>
+                            </div>
+                            <div class="content">
+                                Dixons <p>mega@uc.com</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="d-flex">
+                            <div class="icon">
+                                <i class="fas fa-share"> </i>
+                            </div>
+                            <div class="content">
+                                Technology <p>mega@uc.com</p>
+                            </div>
+                        </div>
+                    </td>
+
+                    <td>23.4K</td>
+                    <td>$891.2</td>
+                    <td>99.9%</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="d-flex">
+                            <div class="icon">
+                                <i class="fas fa-shopping-bag"> </i>
+                            </div>
+                            <div class="content">
+                                Dixons <p>mega@uc.com</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="d-flex">
+                            <div class="icon">
+                                <i class="fas fa-shopping-cart"> </i>
+                            </div>
+                            <div class="content">
+                                Technology <p>mega@uc.com</p>
+                            </div>
+                        </div>
+                    </td>
+
+                    <td>23.4K</td>
+                    <td>$891.2</td>
+                    <td>99.9%</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="d-flex">
+                            <div class="icon">
+                                <i class="fas fa-coffee"> </i>
+                            </div>
+                            <div class="content">
+                                Dixons <p>mega@uc.com</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="d-flex">
+                            <div class="icon">
+                                <i class="fas fa-shopping-bag"> </i>
+                            </div>
+                            <div class="content">
+                                Technology <p>mega@uc.com</p>
+                            </div>
+                        </div>
+                    </td>
+
+                    <td>23.4K</td>
+                    <td>$891.2</td>
+                    <td>99.9%</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="d-flex">
+                            <div class="icon">
+                                <i class="fas fa-laptop"> </i>
+                            </div>
+                            <div class="content">
+                                Dixons <p>mega@uc.com</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="d-flex">
+                            <div class="icon">
+                                <i class="fas fa-shopping-basket"> </i>
+                            </div>
+                            <div class="content">
+                                Technology <p>mega@uc.com</p>
+                            </div>
+                        </div>
+                    </td>
+
+                    <td>23.4K</td>
+                    <td>$891.2</td>
+                    <td>99.9%</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="d-flex">
+                            <div class="icon">
+                                <i class="fas fa-shopping-bag"> </i>
+                            </div>
+                            <div class="content">
+                                Dixons <p>mega@uc.com</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="d-flex">
+                            <div class="icon">
+                                <i class="fas fa-star"> </i>
+                            </div>
+                            <div class="content">
+                                Technology <p>mega@uc.com</p>
+                            </div>
+                        </div>
+                    </td>
+
+                    <td>23.4K</td>
+                    <td>$891.2</td>
+                    <td>99.9%</td>
+                </tr>
+            </div>
+
+        </table>
+    </div>
+
+
+
+
+</body>
+
+</html>
